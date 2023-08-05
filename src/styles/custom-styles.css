@@ -1,0 +1,9 @@
+/* gradient heading */
+.main-heading {
+  display: inline-block;
+  margin: 2rem 0;
+  font-style: normal;
+  font-weight: 600;
+  color: #33d2ff;
+  line-height: 1.2;
+}

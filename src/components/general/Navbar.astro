@@ -1,0 +1,32 @@
+---
+import { info } from "@data";
+import { createLogo } from "@utils";
+---
+
+<header
+  class="container flex items-center justify-between h-[80px] sm:h-[123px]"
+>
+  <a
+    class="text-2xl dark:text-light font-semibold dark:font-semibold font-outfit"
+    href="/"
+    >DEV::Jeffrey Henry
+  </a>
+  <nav>
+    <ul class="flex items-center">
+      <li>
+        <a class="p-4 dark:text-light block text-lg" href="/"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a class="p-4 dark:text-light block text-lg" href="/projects"
+          >Projects</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script is:inline>
+  document.documentElement.setAttribute("data-theme", "dark");
+</script>
