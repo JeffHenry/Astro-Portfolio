@@ -7,3 +7,13 @@
   color: #33d2ff;
   line-height: 1.2;
 }
+
+.pic-container {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-pic {
+  margin: 0 auto;
+}

@@ -5,7 +5,9 @@ const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <p class="dark:text-light mt-[117px]">Hey, I’m</p>
+  <div class="flex pic-container">
+    <img src="/assets/images/profile-gray.jpg" class="profile-pic">
+  </div>
   <h1>{name}</h1>
   <p class="dark:text-light text-lg mb-16">
     {about}
