@@ -116,7 +116,7 @@ export const info = {
     {
       title: 'Coming Soon',
       isFeatured: true,
-      thumbnail: 'public/assets/images/coming-soon.jpg',
+      thumbnail: '/assets/images/coming-soon.jpg',
       githubUrl: '',
       liveUrl: '',
     },
