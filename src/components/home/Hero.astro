@@ -1,15 +1,21 @@
 ---
 import { IHeroProps } from "@types";
 
-const { name, about } = Astro.props as IHeroProps;
+const { name, about, contact } = Astro.props as IHeroProps;
 ---
 
 <section>
   <div class="flex pic-container">
     <img src="/assets/images/profile-gray.jpg" class="profile-pic">
   </div>
-  <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
+  <div class="flex"><h1 class="name">{name}</h1></div>
+  <p class="dark:text-light text-lg mb-16 about">
     {about}
   </p>
+  <div class="flex">
+    <p class="dark:text-light text-md mb-16 contact">
+      Contact Me at: <span class="email">{contact}</span>
+    </p>
+  </div>
+  <hr>
 </section>

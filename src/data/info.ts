@@ -3,6 +3,7 @@ export const info = {
   name: 'Jeffrey Henry',
   jobDescription: 'Full Stack Claris Developer',
   about: `Certified and experienced full stack developer with 7+ years architecting software solutions to enhance business productivity in various industries with the Claris platform and web languages. Well versed with all aspects of the software development lifecycle including requirement gathering, prototyping, scope estimation, development, quality assurance, and support. Recognized as a competent leader who works well within team environments and remote.`,
+  contact: 'jeff@jeffreyhenry.me',
 
   experience: [
     {

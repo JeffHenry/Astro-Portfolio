@@ -17,3 +17,26 @@
 .profile-pic {
   border-radius: 100%;
 }
+
+.contact {
+  font-weight: 100;
+  margin: 20px auto;
+}
+
+.email {
+  font-weight: 200;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.name {
+  margin: 0 auto;
+}
+
+hr {
+  background-color: white;
+  border-color: white;
+  color: white;
+}
