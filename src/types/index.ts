@@ -16,9 +16,21 @@ export interface IExperience {
   endDate: string;
   description: string[];
 }
+
 export interface IExperiences {
   title: string;
   details: IExperience[];
+}
+
+export interface ISkill {
+  name: string;
+  skillLevel: string;
+  description: string[];
+}
+
+export interface ISkills {
+  title: string;
+  details: ISkill[];
 }
 
 export interface IProject {

@@ -72,6 +72,7 @@ export const info = {
         '- API Integrations (REST, cURL, XML, JSON)',
         '- FileMaker Server, FileMaker Go, FileMaker WebDirect',
       ],
+      skillLevel: 'Expert',
     },
     {
       name: 'Web Development',
@@ -82,6 +83,7 @@ export const info = {
         '- AWS, Lightsail, GoDaddy, CPanel, LetsEncrypt',
         '- Bootstrap, TailwindCSS, Flex',
       ],
+      skillLevel: 'Proficient',
     },
     {
       name: 'Project Management',
@@ -90,6 +92,16 @@ export const info = {
         '- Requirement Gathering and Sprint Planning',
         '- Project planning and time management',
       ],
+      skillLevel: 'Proficient',
+    },
+    {
+      name: 'UI/UX Design',
+      description: [
+        '- User Research and User Strategy',
+        '- Wireframing, Prototyping, Responsive Web Design',
+        '- Figma, Procreate, Illustrator, CSS Frameworks',
+      ],
+      skillLevel: 'Entry-Level',
     },
   ],
 
